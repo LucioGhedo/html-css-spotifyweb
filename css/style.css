@@ -76,6 +76,8 @@ main {
     overflow-y: hidden;
     background-color: black;
     color: grey;
+    z-index: 99;
+    position: relative;
 }
 .left-nav i {
     font-size: 25px;
