@@ -389,6 +389,9 @@ i:hover {
         min-width: 0;
         max-width: 200px;
     }
+    .icons i {
+        letter-spacing: 10px;
+    }
     .flex-footer {
         max-width: 100vh;
     }
@@ -418,9 +421,20 @@ i:hover {
     .appear {
         display: flex;
         flex-direction: column;
-        margin-left: 15px;
+        margin-left: 5px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .flex-font {
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #propic .propic {
         width: 30px;
+    }
+    footer img {
+        margin: 0;
     }
 }
