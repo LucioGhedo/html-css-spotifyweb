@@ -10,6 +10,22 @@ ul {
 li {
     line-height: 35px;
 }
+/* COMMON */
+h4 {
+    color: white;
+    padding: 10px 5px;
+}
+.btn {
+    border: solid white 1px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
 /* FONT */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -41,6 +57,9 @@ main {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 /* LEFT NAV */
 .left-nav {
@@ -118,12 +137,56 @@ main {
 }
 
 /* MAIN CONTENT */
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+}
 .main-content {
     width: calc(100% - 250px);
     padding-top: 90px;
     overflow-y: auto;
-    /* test */
-    background-color: lightsalmon;
+    background-color: #141922;
+}
+.flex-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    color: grey;
+    font-weight: 700;
+}
+.green-under {
+    border-bottom: solid green 3px;
+}
+h2 {
+    color: white;
+    padding: 30px 0;
+}
+.card img {
+    width: 200px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    width: calc(100% / 6 - );
+}
+.card-container {
+    display: flex;
+}
+.card span {
+    color: grey;
+}
+.grey {
+    color: grey;
+}
+.margin {
+    margin-top: 20px;
+}
+.border-rad {
+    border-radius: 50%;
 }
 
 /* FOOTER */
