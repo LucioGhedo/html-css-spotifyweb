@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul {
+    list-style: none;
+}
+li {
+    line-height: 35px;
+}
 /* FONT */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -40,9 +46,44 @@ main {
 .left-nav {
     width: 250px;
     overflow-y: hidden;
-    /* test */
-    background-color: bisque;
+    background-color: black;
+    color: grey;
 }
+.left-nav i {
+    font-size: 25px;
+    padding: 10px 0;
+    padding-right: 10px;
+}
+.logo {
+    padding: 25px;
+}
+.container-left {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.green {
+    border-left: 3px solid green;
+    color: white;
+}
+.container-left h3 {
+    padding: 20px 0;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.add-playlist i {
+    font-size: 40px;
+}
+.add-playlist {
+    display: flex;
+    align-items: center;
+}
+
 
 /* MAIN CONTENT */
 .main-content {
