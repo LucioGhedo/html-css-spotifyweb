@@ -1,0 +1,63 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FONT */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* APP WRAPPER */
+.app-wrapper {
+    width: 100%;
+    height: 100vh;
+    /* test */
+    background-color: pink;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: flex;
+    /* test */
+    background-color: lightblue;
+}
+/* UPGRADE BANNER */
+.upgrade-banner {
+    height: 80px;
+    width: calc(100% - 250px);
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+/* LEFT NAV */
+.left-nav {
+    width: 250px;
+    overflow-y: hidden;
+    /* test */
+    background-color: bisque;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    width: calc(100% - 250px);
+    padding-top: 90px;
+    overflow-y: auto;
+    /* test */
+    background-color: lightsalmon;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 100px;
+    overflow-y: hidden;
+    /* test */
+    background-color: lightgreen;
+}
