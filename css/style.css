@@ -18,6 +18,9 @@ h4 {
     color: white;
     padding: 10px 5px;
 }
+h3 {
+    color: white;
+}
 .btn {
     border: solid white 1px;
     border-radius: 25px;
