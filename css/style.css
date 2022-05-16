@@ -83,7 +83,39 @@ main {
     display: flex;
     align-items: center;
 }
-
+.install-app {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.install-app hr {
+    background-color: grey;
+}
+.center {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.center i {
+    font-size: 20px;
+}
+.flex-end {
+    align-items: flex-end;
+}
+.height {
+    height: calc(100vh - 450px);
+    overflow-y: hidden;
+}
+/* foto utente */
+.propic {
+    background-color: grey;
+    border-radius: 50%;
+    width: 10%;
+    margin-right: 10px;
+}
+.white {
+    color: white;
+}
 
 /* MAIN CONTENT */
 .main-content {
