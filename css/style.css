@@ -82,6 +82,10 @@ main {
     z-index: 99;
     position: relative;
 }
+.left-nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
 .left-nav i {
     font-size: 25px;
     padding: 10px 0;
@@ -302,6 +306,9 @@ footer .grey {
     left: 36%;
     font-size: 50px;
     display: none;
+}
+.left-nav-container span:hover {
+    color: white;
 }
 .card:hover .hover {
     display: inline-block;
