@@ -278,7 +278,7 @@ footer .grey {
     background-color: grey;
     height: 3px;
     max-width: 450px;
-    min-width: 400px;
+    min-width: 300px;
     margin-top: 20px;
     position: relative;
 }
@@ -428,6 +428,9 @@ i:hover {
     .flex-footer {
         max-width: 100vh;
     }
+    .icons2 {
+        letter-spacing: 10px;
+    }
 }
 @media all and (max-width: 600px) {
     .left-nav {
@@ -469,5 +472,8 @@ i:hover {
     }
     footer img {
         margin: 0;
+    }
+    .icons2 {
+        letter-spacing: 5px;
     }
 }
