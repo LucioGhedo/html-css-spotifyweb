@@ -32,6 +32,18 @@ a {
     color: inherit;
     text-decoration: none;
 }
+.grey {
+    color: grey;
+}
+.margin {
+    margin-top: 20px;
+}
+.border-rad {
+    border-radius: 50%;
+}
+.relative {
+    position: relative;
+}
 /* FONT */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -109,7 +121,6 @@ main {
     padding: 20px 0;
     color: white;
 }
-
 .flex {
     display: flex;
     flex-direction: column;
@@ -203,18 +214,6 @@ h2 {
 }
 .card span {
     color: grey;
-}
-.grey {
-    color: grey;
-}
-.margin {
-    margin-top: 20px;
-}
-.border-rad {
-    border-radius: 50%;
-}
-.relative {
-    position: relative;
 }
 
 /* FOOTER */
