@@ -336,7 +336,10 @@ footer .grey {
     font-size: 50px;
     display: none;
 }
-.left-nav-container span:hover {
+.left-nav span:hover {
+    color: white;
+}
+.center:hover {
     color: white;
 }
 .card:hover img {
