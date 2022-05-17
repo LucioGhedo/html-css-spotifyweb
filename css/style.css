@@ -308,12 +308,12 @@ footer .grey {
 }
 .minutes {
     position: absolute;
-    top: 8px;
+    top: 12px;
     right: 102%;
 }
 .minutes2 {
     position: absolute;
-    top: 8px;
+    top: 12px;
     left: 102%;
 }
 .minutes, .minutes2 {
