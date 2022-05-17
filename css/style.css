@@ -213,6 +213,9 @@ h2 {
 .border-rad {
     border-radius: 50%;
 }
+.relative {
+    position: relative;
+}
 
 /* FOOTER */
 footer {
@@ -328,7 +331,7 @@ footer .grey {
 .hover {
     color: white;
     position: absolute;
-    top: 33%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
