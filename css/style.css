@@ -302,13 +302,16 @@ footer .grey {
 .hover {
     color: white;
     position: absolute;
-    top: 22%;
-    left: 36%;
+    top: 23%;
+    left: 37%;
     font-size: 50px;
     display: none;
 }
 .left-nav-container span:hover {
     color: white;
+}
+.card:hover img {
+    filter: opacity(50%);
 }
 .card:hover .hover {
     display: inline-block;
