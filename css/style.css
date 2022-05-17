@@ -284,7 +284,7 @@ footer .grey {
 }
 .player-border2 {
     border: solid #c1c1c1 1px;
-    width: 30%;
+    width: 43%;
 }
 .footer-player {
     display: flex;
@@ -431,6 +431,9 @@ i:hover {
     .icons2 {
         letter-spacing: 10px;
     }
+    .circle2 {
+        left: 60px;
+    }
 }
 @media all and (max-width: 600px) {
     .left-nav {
@@ -475,5 +478,8 @@ i:hover {
     }
     .icons2 {
         letter-spacing: 5px;
+    }
+    .circle {
+        left: 12px;
     }
 }
